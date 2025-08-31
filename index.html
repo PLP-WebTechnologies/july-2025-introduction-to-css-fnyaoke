@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <h1>CSS Box Model Assignment</h1>
+        <p>Demonstrating Margin, Padding, Border, and Content Properties</p>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav class="navigation">
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="#content" class="nav-link">Content</a>
+            </li>
+            <li class="nav-item">
+                <a href="#cards" class="nav-link">Cards</a>
+            </li>
+            <li class="nav-item">
+                <a href="#demo" class="nav-link">Box Model</a>
+            </li>
+            <li class="nav-item">
+                <a href="#buttons" class="nav-link">Buttons</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Main Container -->
+    <main class="container">
+        <!-- Content Sections -->
+        <section id="content" class="content-section">
+            <h2>Understanding the CSS Box Model</h2>
+            <p>
+                The CSS Box Model is fundamental to web design and layout. 
+              Every HTML element is essentially a rectangular box consisting of four main components: content, padding, border, and margin.
+            </p>
+            <p>
+                <strong>Content:</strong> The actual content of the element (Contains text, images, etc.)
+            </p>
+            <p>
+                <strong>Padding:</strong> Space between the content and the border (inner spacing)
+            </p>
+            <p>
+                <strong>Border:</strong> A line that surrounds the padding and content
+            </p>
+            <p>
+                <strong>Margin:</strong> Space outside the border (outer spacing between elements)
+            </p>
+        </section>
+
+        <!-- Card Layout Section -->
+        <section id="cards" class="card-container">
+            <div class="card">
+                <h3>Margin Property</h3>
+                <p>Margin creates space outside an element's border. It pushes other elements away.</p>
+                <p>Example: margin: 2rem; creates 2rem of space on all sides.</p>
+            </div>
+            
+            <div class="card">
+                <h3>Padding Property</h3>
+                <p>Padding creates space inside an element, between the content and the border.</p>
+                <p>Example: padding: 1rem 2rem; creates 1rem top/bottom, 2rem left/right.</p>
+            </div>
+            
+            <div class="card">
+                <h3>Border Property</h3>
+                <p>Border creates a visible line around the element's padding and content.</p>
+                <p>Example: border: 2px solid #333; creates a solid 2px border.</p>
+            </div>
+        </section>
+
+        <!-- Box Model Visualization -->
+        <section id="demo" class="box-model-demo">
+            <h2>Box Model Visualization</h2>
+            <div class="box-example">
+                <div>
+                    This box demonstrates:<br>
+                    Red = Content<br>
+                    Transparent = Padding<br>
+                    Teal = Border<br>
+                    Margin pushes this away from other elements
+                </div>
+            </div>
+            <p class="inspection-note">
+                Open your browser's developer tools and inspect the box above to see the Box Model in action!
+            </p>
+        </section>
+
+        <!-- Button Section -->
+        <section id="buttons" class="button-section">
+            <h2 class="button-heading">Interactive Button Examples</h2>
+            <a href="#" class="demo-button">Primary Button</a>
+            <a href="#" class="demo-button">Secondary Button</a>
+            <a href="#" class="demo-button">Action Button</a>
+            <p class="button-description">
+                Notice how padding and margin affect button spacing and hover effects!
+            </p>
+        </section>
+
+        <!-- Additional Content Section -->
+        <section class="content-section">
+            <h2>CSS Properties Demonstrated</h2>
+            <p>
+                This Part showcases essential CSS properties including color, font-size, background-color, margin, padding, border, border-radius, and box-shadow.
+            </p>
+            <p>
+                Each section uses different combinations of these properties to create visual hierarchy and spacing. 
+              The Box Model is consistently applied throughout to maintain proper layout structure.
+            </p>
+            <p>
+                Testing Hover effects and transitions in CSS to create interactive experiences while maintaining the Box Model principles.
+            </p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Florence Nyaoke | CSS Box Model Assignment - Demonstrating Fundamental Styling Concepts | Created with HTML and CSS only</p>
+    </footer>
+</body>
+</html>
